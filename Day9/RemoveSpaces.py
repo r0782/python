@@ -1,0 +1,2 @@
+text = input("Enter string: ")
+print(text.replace(" ", ""))
