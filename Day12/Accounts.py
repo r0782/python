@@ -28,7 +28,7 @@ class currentAccount(Customerdata):
         print("Balance:",balance)
 load()
 while True:
-    A=Customerdata(input("Enter Account Number: "),
+    A=currentAccount(input("Enter Account Number: "),
               input("Enter Name of the Account Holder: ")
               )
     data[A.accountnumber]={
